@@ -1,0 +1,3 @@
+Would you analyze my @src\App.css @src\components\tracks\SongList.css styling and improve the UI to make it look like  a
+  modern design with a black and red color theme combination to compliment the color palette. Also, make it like a mobile
+  playlist design and do not add any or new files just styling.
