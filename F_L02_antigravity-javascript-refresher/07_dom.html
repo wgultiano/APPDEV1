@@ -1,0 +1,15 @@
+<button id="changeColorBtn">Change Background</button>
+  <p id="message">DO NOT LOOK</p>
+ 
+  <script>
+    const button = document.getElementById("changeColorBtn");
+    button.addEventListener("click", () => {
+      const color = prompt("Enter a background color:");
+      document.body.style.backgroundColor = color;
+    });
+ 
+    const message = document.getElementById("message");
+    setTimeout(() => {
+      message.textContent = "TOO LATE. YOU SAW IT.";
+    }, 2000);
+  </script>
