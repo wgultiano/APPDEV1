@@ -5,9 +5,12 @@ Using the file named: @01_base_syntax.js access it and modify to make some chang
 **Reflection:**
 Base sa binigay nyang result, nalaman ko na kapag pala mag de-declare ng const ay dapat yung value na hindi nagbabago, at kung let naman ay yung value na pwedeng magbago at ma re-assign. Also natutunan ko din na pwede rin palang gumamit ng template literals sa pag print ng value.
 
-
 ### 02_variables.js
-In this part, I learned the different types of values, such as string, number, and boolean. I also learned about arithmetic operations using the given examples, such as addition and division. Additionaly, in this part, I compare values using == and === to see both type and value. To test my understanding, I added two lines: console.log("5" == "5"); which is true because they have the same value or they both strings. Lastly, console.log(5 === "5"); which is false because it checks both values and data types.
+**Prompt:** 
+Using the file named: @02_variables.js access it and try what will happen if I do the console.log(true == 5) and console.log(false === 5). After that, explain what changes you have done and run it using node.
+
+**Reflection:**
+Base sa binigay nyang result, kahit pala kahit pala true yung ibigay kong value at number yung ico-compare ko ay false pa rin yung ibibigay nyang output dahil magkaiba yung value na tinitingnan nya. At sa false === 5 naman ay parehong false din yung lumabas kasi magkaiba din yung value nya. 
 
 ### 03_functions.js
 In this part, I learned different functions, such as greet(), square(), and calculator(). They also used return to give value or result back from the function. For the greet function, I just add my name, and for square function leave it default because its just multiply the value to itself. And for the calculator function, I added the difference and quotient to see also the different calculations because it is calculator functions hehe. 
