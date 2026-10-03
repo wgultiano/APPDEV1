@@ -1,10 +1,13 @@
 ### 01_base_syntax.js
-**Prompt:** Using the file with named: 01_base_syntax.js make it as your reference to only edit or modidy. Do not add any new or unrelated syntax, before running explain your plan, as well as the code. Now I want you to add or test different rules using let.
+**Prompt:** 
+Using the file named: @01_base_syntax.js access it and modify to make some changes and its up to you what changes you want to apply. As long as, it is related to what the file is content. After that, explain what changes you have done, and run it using node.
 
-**Reflection:** Base po sa ginawa niya, nag-declare lang siya ng variables using let tulad ng sinabi ko. Nag-return din siya ng value galing sa function gamit yung userName, userAge, at userHasHobby. Sa Rule 1, pinakita niya na pwede mag reassign ng value using let. At a Rule 2, pinakita niya na hindi pwede mag-redeclare sa parehong scope. Sa Rule 3, pinakita niya ang block scope, at sa Rule 4 naman, pinakita niya na hindi pwedeng gamitin ang variable bago ma-declare.
+**Reflection:**
+Base sa binigay nyang result, nalaman ko na kapag pala mag de-declare ng const ay dapat yung value na hindi nagbabago, at kung let naman ay yung value na pwedeng magbago at ma re-assign. Also natutunan ko din na pwede rin palang gumamit ng template literals sa pag print ng value.
+
 
 ### 02_variables.js
-
+In this part, I learned the different types of values, such as string, number, and boolean. I also learned about arithmetic operations using the given examples, such as addition and division. Additionaly, in this part, I compare values using == and === to see both type and value. To test my understanding, I added two lines: console.log("5" == "5"); which is true because they have the same value or they both strings. Lastly, console.log(5 === "5"); which is false because it checks both values and data types.
 
 ### 03_functions.js
 In this part, I learned different functions, such as greet(), square(), and calculator(). They also used return to give value or result back from the function. For the greet function, I just add my name, and for square function leave it default because its just multiply the value to itself. And for the calculator function, I added the difference and quotient to see also the different calculations because it is calculator functions hehe. 
