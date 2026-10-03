@@ -13,7 +13,11 @@ Using the file named: @02_variables.js access it and try what will happen if I d
 Base sa binigay nyang result, kahit pala kahit pala true yung ibigay kong value at number yung ico-compare ko ay false pa rin yung ibibigay nyang output dahil magkaiba yung value na tinitingnan nya. At sa false === 5 naman ay parehong false din yung lumabas kasi magkaiba din yung value nya. 
 
 ### 03_functions.js
-In this part, I learned different functions, such as greet(), square(), and calculator(). They also used return to give value or result back from the function. For the greet function, I just add my name, and for square function leave it default because its just multiply the value to itself. And for the calculator function, I added the difference and quotient to see also the different calculations because it is calculator functions hehe. 
+**Prompt:** 
+Using the file named: @03_functions.js I want to get a total with decimal when 10 is divide by 3. Make sure to do not add any unnecessary code or syntax.
+
+**Reflection:**
+Base sa result na ginawa niya, nakuha niya nga yung expected output na gusto ko. Kinuha niya yung decimal gamit yung toFixed() function, kaya naging 3.33 yung result instead na magkaroon ng maraming decimal numbers.
 
 ### 04_objects.js 
 What I learned in this part is the object with different properties such as name, age, and cousrse. I also learned how to add another property, which is hobby, and how to use this to access the properties inside the object. 
