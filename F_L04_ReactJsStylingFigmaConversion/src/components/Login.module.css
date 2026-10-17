@@ -1,0 +1,71 @@
+.form {
+  width: 45.3%;
+  margin-left: 4.16vw;
+}
+
+.form h2 {
+  margin-bottom: 64px;
+  font-size: 16px;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.6px;
+}
+
+.field {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.field input {
+  width: 100%;
+  height: 29px;
+  border: 0;
+  border-bottom: 1px solid var(--color-input-border);
+  outline: none;
+  background: transparent;
+  font: inherit;
+  font-size: 10px;
+  letter-spacing: 0.3px;
+}
+
+.field input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.field input:focus {
+  border-bottom-color: var(--color-brand);
+}
+
+.form button {
+  width: 100%;
+  height: 30px;
+  margin-top: 2px;
+  border: 0;
+  border-radius: var(--radius-control-sm);
+  background: var(--color-brand);
+  color: var(--color-text-inverse);
+  font: inherit;
+  font-size: 9px;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
+
+.signup {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 9px;
+  letter-spacing: 0.2px;
+}
+
+.signup a {
+  color: var(--color-brand);
+  font-weight: var(--font-weight-bold);
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .form {
+    width: min(288px, 100%);
+    margin-left: 0;
+  }
+}
