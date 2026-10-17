@@ -3,7 +3,7 @@
     width: 86vw;
     height: 82vh;
     min-height: 600px;
-    background: #a9c0f0;
+    background: var(--color-panel);
     overflow: hidden;
 }
 
@@ -18,15 +18,15 @@
 
 .tagline {
     align-self: flex-start;
-    font-size: 32px;
-    font-weight: 300;
-    line-height: 1.25;
-    color: #fff;
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-light);
+    line-height: var(--line-height-tight);
+    color: var(--color-text-inverse);
 }
 
 .tagline strong {
-    font-weight: 700;
-    color: #5b86e5;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-brand);
 }
 
 .logo {
@@ -38,9 +38,9 @@
 }
 
 .link {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #fff;
+    font-size: var(--font-size-base);
+    letter-spacing: var(--letter-spacing-wide);
+    color: var(--color-text-inverse);
 }
 
 /* ---------- Right panel ---------- */
@@ -49,7 +49,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: var(--color-surface);
     border-radius: 60px 0 0 60px;
 }
 
@@ -59,9 +59,9 @@
 }
 
 .form h2 {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-wide);
     margin-bottom: 110px;
 }
 
@@ -69,47 +69,77 @@
     display: block;
     width: 100%;
     padding: 18px 0 14px;
-    margin-bottom: 28px;
+    margin-bottom: var(--space-7);
     border: none;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid var(--color-border);
     outline: none;
     font-family: inherit;
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: var(--font-size-base);
+    letter-spacing: var(--letter-spacing-wide);
 }
 
 .form input::placeholder {
-    color: #9a9a9a;
+    color: var(--color-text-muted);
 }
 
 .form input:focus {
-    border-bottom-color: #5b86e5;
+    border-bottom-color: var(--color-brand);
 }
 
 .form button {
     width: 100%;
     height: 60px;
-    margin-top: 16px;
+    margin-top: var(--space-4);
     border: none;
-    border-radius: 8px;
-    background: #5b86e5;
-    color: #fff;
+    border-radius: var(--radius-control);
+    background: var(--color-brand);
+    color: var(--color-text-inverse);
     font-family: inherit;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: var(--letter-spacing-wide);
     cursor: pointer;
 }
 
 .signup {
-    margin-top: 24px;
+    margin-top: var(--space-6);
     text-align: center;
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: var(--font-size-base);
+    letter-spacing: var(--letter-spacing-wide);
 }
 
 .signup a {
-    color: #5b86e5;
-    font-weight: 700;
+    color: var(--color-brand);
+    font-weight: var(--font-weight-bold);
     text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .login {
+        width: 94vw;
+    }
+
+    .left {
+        flex: 0 0 40%;
+        padding: 48px 24px 24px;
+    }
+
+    .tagline {
+        font-size: var(--font-size-lg);
+    }
+
+    .right {
+        min-width: 0;
+        padding: 24px;
+    }
+
+    .form {
+        width: 100%;
+        max-width: 575px;
+    }
+
+    .signup {
+        font-size: var(--font-size-sm);
+        letter-spacing: var(--letter-spacing-normal);
+    }
 }
