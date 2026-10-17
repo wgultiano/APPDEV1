@@ -59,17 +59,22 @@
 }
 
 @media (max-width: 900px) {
+  body {
+    display: block;
+    min-height: 100dvh;
+  }
+
   .auth-page {
     width: min(440px, calc(100vw - 24px));
     height: auto;
     min-height: 0;
     flex-direction: column;
-    margin: 24px 0;
+    margin: 24px auto;
   }
 
   .auth-brand {
     flex: none;
-    min-height: 170px;
+    min-height: 180px;
     padding: 24px;
     align-items: flex-start;
   }
@@ -91,26 +96,32 @@
 
   .auth-brand-link {
     margin-top: auto;
+    font-size: 10px;
   }
 
   .auth-content {
     border-radius: 24px 24px 0 0;
-    padding: 40px 24px;
+    padding: 32px 24px 36px;
   }
 }
 
 @media (max-width: 380px) {
   .auth-brand {
-    min-height: 230px;
+    min-height: 190px;
+    padding: 20px;
   }
 
   .auth-logo {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     right: 0;
   }
 
   .auth-tagline {
-    font-size: 17px;
+    font-size: 18px;
+  }
+
+  .auth-content {
+    padding: 28px 20px 32px;
   }
 }

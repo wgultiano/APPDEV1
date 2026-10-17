@@ -126,21 +126,67 @@
 
 @media (max-width: 900px) {
   .content {
-    width: min(288px, 100%);
+    width: min(340px, 100%);
     margin-left: 0;
     transform: none;
   }
 
-  .socialOptions button {
-    font-size: 9px;
+  .content h2 {
+    margin-bottom: 26px;
+    font-size: 22px;
   }
 
-  .field input {
+  .socialOptions {
+    gap: 12px;
+  }
+
+  .socialOptions button {
+    height: 44px;
+    padding: 0 6px;
     font-size: 11px;
   }
 
-  .submit,
+  .divider {
+    margin: 28px 0 20px;
+    font-size: 15px;
+  }
+
+  .field {
+    margin-bottom: 8px;
+  }
+
+  .field input {
+    height: 48px;
+    font-size: 16px;
+  }
+
+  .submit {
+    height: 48px;
+    margin-top: 24px;
+    font-size: 14px;
+  }
+
   .loginPrompt {
-    font-size: 10px;
+    margin-top: 18px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .message {
+    position: static;
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 360px) {
+  .socialOptions {
+    flex-direction: column;
+  }
+
+  .socialOptions button {
+    flex: none;
+    width: 100%;
   }
 }

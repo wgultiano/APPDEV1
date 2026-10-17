@@ -65,7 +65,37 @@
 
 @media (max-width: 900px) {
   .form {
-    width: min(288px, 100%);
+    width: min(340px, 100%);
     margin-left: 0;
+  }
+
+  .form h2 {
+    margin-bottom: 28px;
+    font-size: 22px;
+  }
+
+  .field {
+    margin-bottom: 12px;
+  }
+
+  .field:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .field input {
+    height: 48px;
+    font-size: 16px;
+  }
+
+  .form button {
+    height: 48px;
+    margin-top: 24px;
+    font-size: 14px;
+  }
+
+  .signup {
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 1.5;
   }
 }
