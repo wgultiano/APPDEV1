@@ -1,4 +1,4 @@
-import "./Login.css";
+import "./Login.module.css";
 import logo from "./assets/logo.svg";
 
 export default function Login() {
