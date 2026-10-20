@@ -1,0 +1,46 @@
+:root {
+  font-family: var(--font-sans);
+  color: #506e7e;
+  background: var(--color-surface);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+
+  /* Shared design tokens */
+  --font-sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --color-surface: #ffffff;
+  --color-heading: #7d9da0;
+  --color-ink: #506e7e;
+  --color-muted: #9db0bd;
+  --color-inactive: #c9d4db;
+  --color-accent: #516f80;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+#root {
+  min-height: 100vh;
+}
